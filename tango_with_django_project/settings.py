@@ -98,3 +98,5 @@ TEMPLATE_DIRS = (
 
 MEDIA_URL = '/media/' # http://127.0.0.1:8000/media/
 MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media') # Absolute path to the media directory
+
+LOGIN_URL = '/rango/login/' # Redirect url of login_required() decorator 

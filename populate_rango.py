@@ -19,7 +19,7 @@ def populate():
 
 	add_page(cat=django_cat,
 		title="Official Django Tutorial",
-		url="https://docs.djangoproject.com/en/1.5/intro/tutorial01/")
+		url="https://docs.djangoproject.com/en/1.5/intro/tutorial01/", views=5)
 
 	add_page(cat=django_cat,
 		title="Django Rocks",
@@ -27,7 +27,7 @@ def populate():
 
 	add_page(cat=django_cat,
 		title="How to Tango with Django",
-		url="http://www.tangowithdjang.com/")
+		url="http://www.tangowithdjang.com/", views=2)
 
 	frame_cat = add_cat("Other Frameworks", 32, 16)
 
